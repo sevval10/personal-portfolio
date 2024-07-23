@@ -1,0 +1,76 @@
+html{
+    scroll-behavior: smooth;
+    /*girişlerin yumuşak olması için*/
+     
+}
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+
+}
+img{
+    width: 100%;
+}
+
+section{
+    padding: 100px 0;
+    background: #122e44;
+}
+
+.section_title{
+    margin-bottom: 30px;
+}
+
+.section_title h2{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.section_title h2:hover{
+    background-color: #24ccac;
+}
+
+header {
+    background: rgb(rgb(78, 17, 81), rgb(95, 131, 95), rgb(116, 116, 169));
+    color: #fff;
+    position: fixed;
+    border-bottom: 1px solid rgba(rgb(142, 90, 90), rgb(159, 172, 159), rgb(119, 119, 209));
+    width: 100%;
+    z-index: 5;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 88%;
+    padding: 10px 0;
+
+}
+.nav_links{
+    display: flex;
+
+}
+.nav_links li a{
+    margin-left: 15px;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+
+.nav_links li a :hover{
+    background-color: #24ccac;
+}
+
+
